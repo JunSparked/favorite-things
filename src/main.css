@@ -1,0 +1,83 @@
+/* Functions */
+/* Variable Colors */
+/* Font Variables */
+/* Image Variables */
+/*Resets */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* h1 - h3 styles */
+h1, h2 {
+  font-family: utopia-std, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+h3 {
+  font-family: proxima-nova, sans-serif;
+  font-size: 20pt;
+  font-weight: 400;
+}
+
+/* Paragraph & Links */
+p, a {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12pt;
+}
+
+p {
+  color: #30261D;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.black {
+  color: #30261D;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #8B1537;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Button Styles */
+button {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #8B1537;
+  -webkit-box-shadow: 0px 15px 31px #8214294D;
+          box-shadow: 0px 15px 31px #8214294D;
+  border-radius: 8px;
+  padding: .2em 2.5em;
+  border: 0;
+}
+
+button:link, button:visited, button:hover, button:active {
+  border: 0;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #8B1537;
+}
+/*# sourceMappingURL=main.css.map */
