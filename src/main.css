@@ -53,6 +53,10 @@ p {
   color: #30261D;
 }
 
+.red {
+  color: #8B1537;
+}
+
 a:link, a:visited, a:hover, a:active {
   color: #8B1537;
   text-decoration: none;
@@ -81,5 +85,35 @@ button:link, button:visited, button:hover, button:active {
 button:hover {
   background-color: #FFFFFF;
   color: #8B1537;
+}
+
+/* favorite things styles */
+.image-header {
+  background-image: url("https://images.unsplash.com/photo-1453959022778-cfda85dbe0f9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.favorite-heading {
+  text-align: left;
+  font: normal normal bold 70pt/70pt Proxima Nova;
+  letter-spacing: 11pt;
+  font-family: proxima-nova, sans-serif;
+}
+
+.blur {
+  backdrop-filter: blur(29px);
+  -webkit-backdrop-filter: blur(29px);
+  width: 100vw;
+  margin: auto;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
