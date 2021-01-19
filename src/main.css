@@ -57,8 +57,7 @@ p {
   color: #8B1537;
 }
 
-a:link, a:visited, a:hover, a:active {
-  color: #8B1537;
+a:link, a:hover, a:active {
   text-decoration: none;
   cursor: pointer;
 }
@@ -118,11 +117,12 @@ button:hover {
 }
 
 .column-image {
-  background-image: url("https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1");
   height: 300px;
   width: 100%;
   background-position: center;
   background-size: cover;
+  -webkit-box-shadow: 0px 3px 20px #00000029;
+          box-shadow: 0px 3px 20px #00000029;
 }
 
 .hover {

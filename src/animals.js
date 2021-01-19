@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-function Food(props){
+function Animals(props){
     
     return(
         <div className="col-md-4 mb-4">
@@ -12,5 +12,5 @@ function Food(props){
         </div>
     );
   }
-  export default Food;
+  export default Animals;
   

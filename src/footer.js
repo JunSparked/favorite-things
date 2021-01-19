@@ -6,7 +6,9 @@ import logo from './CGH_logo-01.svg';
 function Footer() {
   return (
       <footer class="mt-4">
-          <img src={logo} alt="" class="logo"/>
+          <a class="logo" href="https://chelseagracehitzler.com" target="_blank">
+            <img src={logo} alt="" class="logo"/>
+          </a>
       </footer>
   );
 }
