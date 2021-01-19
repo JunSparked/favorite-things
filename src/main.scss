@@ -87,8 +87,8 @@ button:hover{
 }
 .favorite-heading{
     text-align: left;
-    font: normal normal bold 70pt/70pt Proxima Nova;
-    letter-spacing: 11pt;
+    font: normal normal bold 5em/1em Proxima Nova;
+    letter-spacing: .1em;
     font-family: proxima-nova, sans-serif;
     
 }
@@ -99,5 +99,29 @@ button:hover{
     margin:auto;
     vertical-align: middle;
     display: flex;
-
+}
+.column-image{
+    background-image: url('https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1');
+    height:300px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+}
+.hover{
+    background-color:$primary-red;
+    opacity:.7;
+    bottom:0;
+    width:100%;
+    height: 25%;
+    padding: 1.5em;
+}
+footer{
+    background-color:$primary-red;
+    height:250px;
+    display: flex !important;
+}
+.logo{
+    width:5em;
+    display: flex;
+    margin:auto;
 }
