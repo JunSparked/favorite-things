@@ -7,6 +7,9 @@ function Food(props){
             <div className="column-image" style={{backgroundImage:"url('" + props.image + "')"}}>
                 <div className="hover">
                     <h3 className="white">{props.name}</h3>
+                    <p className="hide white"
+                    dangerouslySetInnerHTML={{ __html: props.description}} >
+                    </p>
                 </div>
             </div>
         </div>

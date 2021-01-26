@@ -92,7 +92,7 @@ button:hover {
   background-position: center;
   background-size: cover;
   height: 50vh;
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,9 +100,15 @@ button:hover {
 
 .favorite-heading {
   text-align: left;
-  font: normal normal bold 5em/1em Proxima Nova;
+  font: normal normal bold 4em/1em Proxima Nova;
   letter-spacing: .1em;
   font-family: proxima-nova, sans-serif;
+}
+
+@media screen and (max-width: 380px) {
+  .favorite-heading {
+    font-size: 2em;
+  }
 }
 
 .blur {
@@ -134,12 +140,63 @@ button:hover {
   padding: 1.5em;
 }
 
+.hover:hover {
+  -webkit-transition: height 1s;
+  transition: height 1s;
+}
+
+.hover:hover {
+  height: 100%;
+  opacity: .9;
+}
+
+.hover:hover .hide {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.hover:hover .hide {
+  opacity: 1;
+}
+
 footer {
   background-color: #8B1537;
   height: 250px;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+  -webkit-animation: changeColor 10s infinite;
+          animation: changeColor 10s infinite;
+}
+
+@-webkit-keyframes changeColor {
+  0% {
+    background-color: #8B1537;
+  }
+  35% {
+    background-color: #af121f;
+  }
+  70% {
+    background-color: #992a3f;
+  }
+  100% {
+    background-color: #8B1537;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #8B1537;
+  }
+  35% {
+    background-color: #af121f;
+  }
+  70% {
+    background-color: #992a3f;
+  }
+  100% {
+    background-color: #8B1537;
+  }
 }
 
 .logo {
@@ -148,5 +205,17 @@ footer {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
+}
+
+.hide {
+  opacity: 0;
+}
+
+strong {
+  font-weight: bold !important;
+}
+
+a .white:hover {
+  color: #30261D;
 }
 /*# sourceMappingURL=main.css.map */
