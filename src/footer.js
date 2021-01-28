@@ -5,9 +5,9 @@ import logo from './CGH_logo-01.svg';
 
 function Footer() {
   return (
-      <footer class="mt-4">
-          <a class="logo" href="mailto:hitzlerc1@mymail.nku.edu" target="_blank">
-            <img src={logo} alt="" class="logo"/>
+      <footer className="mt-4">
+          <a className="logo" href="mailto:hitzlerc1@mymail.nku.edu" target="_blank">
+            <img src={logo} alt="" className="logo" id="footer-logo"/>
           </a>
       </footer>
   );
